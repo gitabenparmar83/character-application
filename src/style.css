@@ -1,0 +1,67 @@
+.main-wraper {
+  background: hsl(180deg 51% 52%);
+  padding: 45px;
+}
+
+.main-wraper .css-11lq3yg-MuiGrid-root {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-wraper .css-5cxbe8-MuiPaper-root-MuiCard-root {
+  box-shadow: 6px 4px 8px 0px black;
+}
+
+.card-box {
+  border-top: 6px solid #ff8100;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 220px;
+}
+
+.card-box .css-1807xm1-MuiPaper-root-MuiCard-root {
+  min-height: 215px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.card-box .css-1fuesak-MuiPaper-root-MuiCard-root {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin-bottom: 45px;
+}
+
+.profile-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-name {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-auto-rows: 50px;
+  align-items: center;
+  justify-items: start;
+}
+.search-component {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-compo {
+  display: flex;
+}
+
+.search-compo .MuiFormGroup-root {
+  display: flex;
+  flex-direction: row;
+}
